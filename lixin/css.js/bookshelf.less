@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+.header {
+    height: 60px;
+    background: url("../img/nav-3.jpg");
+    color: white;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.header img {
+    width: 70%;
+}
+.header .back,
+.next {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+.header .title {
+    flex: 1;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer nav ul li {
+    list-style: none;
+}
+.footer {
+    width: 100%;
+    height: 80px;
+    -webkit-box-sizing: border-box;
+    margin-top: 30px;
+    background: #000;
+    position: fixed;
+    bottom: 0;
+}
+.footer nav {
+    width: 100%;
+    text-align: center;
+}
+.footer nav ul {
+    display: -webkit-box;
+}
+.footer nav ul li {
+    -webkit-box-flex: 1;
+    color: #fff;
+    padding-top: 10px;
+}
+.footer nav ul li a {
+    display: block;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-sizing: border-box;
+}
+.footer nav ul li a img {
+    width: 80%;
+}
+.content {
+    padding-top: 70px;
+    .box {
+        display: flex;
+        display: flex;
+        justify-content: center;
+        div {
+            flex: 1;
+            padding-top: 5px;
+            border-left: 1px solid #CCCCCC;
+            border-bottom: 1px solid #CCCCCC;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            img {
+                padding-left: 20px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                width: 70%;
+            }
+            b {
+                padding-left: 25px;
+                padding-bottom: 10px;
+                color: #5f5f5f;
+            }
+        }
+    }
+    .bao {
+        display: flex;
+    }
+    button{
+        padding: 6px;
+        border-radius: 6px;
+        text-align: center;
+        margin: 7px 8px;
+        width: 20%;
+        border: none;
+        flex: 1;
+        background-color: gainsboro;
+    }
+}
